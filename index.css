@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stars {
+  position: fixed;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 1744px 122px #fff,134px 1321px #fff,1882px 812px #fff,821px 1760px #fff,571px 1615px #fff,1553px 1863px #fff,1777px 348px #fff,1951px 1996px #fff,1558px 1570px #fff,1098px 1774px #fff,349px 1675px #fff,1288px 1682px #fff,904px 1581px #fff,176px 1932px #fff,1675px 1825px #fff,485px 1582px #fff,1026px 1559px #fff,1769px 1344px #fff,1284px 1104px #fff,1658px 1782px #fff,1030px 1478px #fff,1594px 1692px #fff,1481px 1012px #fff,1309px 1678px #fff,1677px 1354px #fff,1697px 1336px #fff,1153px 1012px #fff,1854px 1679px #fff,1644px 1987px #fff,1974px 1662px #fff,1003px 1591px #fff,1876px 1682px #fff,915px 1581px #fff,1387px 1994px #fff,1103px 1874px #fff,1483px 1435px #fff,1836px 1805px #fff,1778px 1837px #fff,1340px 1794px #fff,1452px 1688px #fff,1200px 1931px #fff,1949px 1161px #fff,1968px 1236px #fff,1747px 1825px #fff,1659px 1334px #fff,1682px 1383px #fff,1161px 1600px #fff,1214px 1044px #fff,1102px 1745px #fff,1969px 1303px #fff,1132px 1649px #fff,1947px 1188px #fff,1945px 1745px #fff,1727px 1404px #fff,1686px 1581px #fff,1912px 1796px #fff,1731px 1528px #fff,1417px 1225px #fff,1808px 1486px #fff,1445px 1927px #fff;
+  animation: twinkle 8s linear infinite;
+}
+
+.stars::after {
+  content: " ";
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 1744px 122px #fff,134px 1321px #fff,1882px 812px #fff,821px 1760px #fff,571px 1615px #fff,1553px 1863px #fff,1777px 348px #fff,1951px 1996px #fff,1558px 1570px #fff,1098px 1774px #fff,349px 1675px #fff,1288px 1682px #fff,904px 1581px #fff,176px 1932px #fff,1675px 1825px #fff,485px 1582px #fff,1026px 1559px #fff,1769px 1344px #fff,1284px 1104px #fff,1658px 1782px #fff,1030px 1478px #fff,1594px 1692px #fff,1481px 1012px #fff,1309px 1678px #fff,1677px 1354px #fff,1697px 1336px #fff,1153px 1012px #fff,1854px 1679px #fff,1644px 1987px #fff,1974px 1662px #fff,1003px 1591px #fff,1876px 1682px #fff,915px 1581px #fff,1387px 1994px #fff,1103px 1874px #fff,1483px 1435px #fff,1836px 1805px #fff,1778px 1837px #fff,1340px 1794px #fff,1452px 1688px #fff,1200px 1931px #fff,1949px 1161px #fff,1968px 1236px #fff,1747px 1825px #fff,1659px 1334px #fff,1682px 1383px #fff,1161px 1600px #fff,1214px 1044px #fff,1102px 1745px #fff,1969px 1303px #fff,1132px 1649px #fff,1947px 1188px #fff,1945px 1745px #fff,1727px 1404px #fff,1686px 1581px #fff,1912px 1796px #fff,1731px 1528px #fff,1417px 1225px #fff,1808px 1486px #fff,1445px 1927px #fff;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.glow-button {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.8);
+}
